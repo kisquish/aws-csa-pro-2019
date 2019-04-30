@@ -14,7 +14,7 @@
             "s3:ListBucket",
             "s3:GetBucketLocation"
          ],
-         "Resource":"arn:aws:s3:::la-homefolders-bucket"
+         "Resource":"arn:aws:s3:::testuser-homefolders-bucket"
       },
       {
          "Effect":"Allow",
@@ -25,7 +25,7 @@
             "s3:GetObjectAcl",
             "s3:DeleteObject"
          ],
-         "Resource":"arn:aws:s3:::la-homefolders-bucket/*"
+         "Resource":"arn:aws:s3:::testuser-homefolders-bucket/*"
       }
    ]
 }
